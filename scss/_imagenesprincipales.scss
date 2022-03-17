@@ -1,0 +1,110 @@
+.index{
+    box-shadow: 0px 2px 10px black;
+    .h1{
+        
+        width: 50%;
+        text-align: end;
+        
+    }
+    .imagen1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 80%;
+            margin: auto;
+            
+        }
+        
+    }
+}
+
+.seccionalimento{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0px 2px 10px black;
+    .titlealimentos{
+        
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .cont-img{
+        width: 30%;
+        
+    }
+    .imagen2{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        
+        img{width: 75%;
+        }
+    }
+}
+
+.seccionaccesorios{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0px 2px 10px black;
+    .titleaccesorios{
+        
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .cont-img{
+        width: 30%;
+        
+    }
+    .imagen3{
+        
+        display: flex;
+        justify-content: end;
+        width: 45%;
+        
+        img{width: 100%;
+        }
+    }
+}
+
+.seccionservicio{
+    
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        box-shadow: 0px 2px 10px black;
+        .titleservicio{
+            
+            
+            text-align: center;
+            font-size: 2rem;
+        }
+        .cont-img{
+            width: 15%;
+            
+        }
+        .imagen4{
+            display: flex;
+            justify-content: end;
+            width: 20%;
+            
+            img{width: 100%;
+            }
+        }
+    }
+
+.seccionQuienesSomos{
+    box-shadow: 0px 2px 10px black;
+}

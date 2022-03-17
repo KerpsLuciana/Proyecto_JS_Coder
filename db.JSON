@@ -1,0 +1,42 @@
+[
+    {   
+        "id": "0",
+        "nombre": "AGUS",
+        "mascotaN": "SHURA",
+        "raza": "Akita",
+        "testimonio": "La verdad estoy encantado con el servicio que entregan, siempre estan dispuestos y con la mejor predisposicion, tienen accesorios de calidad y la atencion que brinda sin dudas es la mejor.",
+        "antiguedad": "2018"
+    },
+    {
+        "id": "1",
+        "nombre": "LUCIANA",
+        "mascotaN": "SAGA",
+        "raza": "Pitbull",
+        "testimonio": "Mi trabajo me consume mucho tiempo, impidiendome pasar horas con Saga. Gracias a Tienda Patitas mi perro puede disfrutar de paseos en todo horario. Lo super RECOMIENDO!",
+        "antiguedad": "2020"
+    },
+    {
+        "id": "2",
+        "nombre": "JORGE",
+        "mascotaN": "MU",
+        "raza": "Persa",
+        "testimonio": "Tienda Patitas fue mi salvación, ya que Mu no paraba de romperme los muebles, un amigo me comento sobre esta tienda y gracias a sus rascadores mis muebles hoy se encuentran sanos y Mu es mas feliz.",
+        "antiguedad": "2021"
+    },
+    {
+        "id": "3",
+        "nombre": "SANDRA",
+        "mascotaN": "KANON",
+        "raza": "Labrador",
+        "testimonio": "Soy clienta hace años, tienen mucha variedad de alimentos y promociones con grandes descuentos, ademas que por ser cliente de hace años nos hacen una atencion por antiguedad. Unos genios!!!!!",
+        "antiguedad": "2012"
+    },
+    {
+        "id": "4",
+        "nombre": "EMANUEL",
+        "mascotaN": "SHION",
+        "raza": "Ovejero Aleman",
+        "testimonio": "Shion era muy rebelde y rompia todo en casa, pero desde que las chicas en Patitas lo sacan a pasear y malcrian se ha vuelto un perro sumamente adorable. No tengo mas para decir que si aman a sus mascotas este es el lugar indicado.",
+        "antiguedad": "2018"
+    }
+]

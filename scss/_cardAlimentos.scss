@@ -1,0 +1,265 @@
+.containerfe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .card{
+        margin: 25px;
+        background: rgb(219, 208, 141);
+        border-radius: 10px;
+        box-shadow:inset 2px 1px 5px white;
+        .cardBody {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 250px;
+            height: 500px;
+            .cardImg{
+                margin: 10px auto;
+                border-radius: 10px;
+                img{
+                    width: 150px;
+                    border-radius: 5px;
+                    box-shadow: 3px 3px 5px rgb(224, 224, 224);
+                    &:hover{
+                        box-shadow: 3px 3px 8px rgb(0, 0, 0);
+                    }
+                }
+            }
+            .cardText{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                text-align: center;
+                padding-bottom: 1rem;
+                width: 100%;
+                .cardTitle{
+                    font-size: 1.5rem;
+                }
+                .cardSubT{
+                    font-size: 1rem;
+                }
+                .cardP{
+                    margin-top: 10px;
+                    font-size:1.2rem;
+                }
+            }
+            
+            .cardContBtn{
+                width: 100%;
+                margin-bottom: auto;
+                text-align: center;
+                .btncard{
+                    margin: auto;
+                    border-radius: 5px;
+                    width: 80%;
+                    text-transform: uppercase;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    cursor: pointer;
+                    color: black;
+                    background:rgb(255, 255, 255) ;
+                    box-shadow: 1px 1px 2px rgb(165, 165, 165);
+                }
+            }
+        }
+    }
+}
+
+// contenedor perrunos
+.containerpe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .card{
+        margin: 25px;
+        background: rgb(146, 238, 223);
+        border-radius: 10px;
+        box-shadow:inset 2px 1px 5px white;
+        .cardBody {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 250px;
+            height: 500px;
+            .cardImg{
+                margin: 10px auto;
+                border-radius: 10px;
+                img{
+                    width: 150px;
+                    border-radius: 5px;
+                    box-shadow: 3px 3px 5px rgb(224, 224, 224);
+                    &:hover{
+                        box-shadow: 3px 3px 8px rgb(0, 0, 0);
+                    }
+                }
+            }
+            .cardText{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                text-align: center;
+                padding-bottom: 1rem;
+                width: 100%;
+                .cardTitle{
+                    font-size: 1.5rem;
+                }
+                .cardSubT{
+                    font-size: 1rem;
+                }
+                .cardP{
+                    margin-top: 10px;
+                    font-size:1.2rem;
+                }
+            }
+            
+            .cardContBtn{
+                width: 100%;
+                margin-bottom: auto;
+                text-align: center;
+                .btncard{
+                    margin: auto;
+                    border-radius: 5px;
+                    width: 80%;
+                    text-transform: uppercase;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    cursor: pointer;
+                    color: black;
+                    background:rgb(255, 255, 255) ;
+                    box-shadow: 1px 1px 2px rgb(165, 165, 165);
+                }
+            }
+        }
+    }
+}
+
+//seccion otros
+.containerot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .card{
+        margin: 25px;
+        background: rgb(144, 219, 157);
+        border-radius: 10px;
+        box-shadow:inset 2px 1px 5px white;
+        .cardBody {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 250px;
+            height: 500px;
+            .cardImg{
+                margin: 10px auto;
+                border-radius: 10px;
+                img{
+                    width: 150px;
+                    border-radius: 5px;
+                    box-shadow: 3px 3px 5px rgb(224, 224, 224);
+                    &:hover{
+                        box-shadow: 3px 3px 8px rgb(0, 0, 0);
+                    }
+                }
+            }
+            .cardText{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                text-align: center;
+                padding-bottom: 1rem;
+                width: 100%;
+                .cardTitle{
+                    font-size: 1.5rem;
+                }
+                .cardSubT{
+                    font-size: 1rem;
+                }
+                .cardP{
+                    margin-top: 10px;
+                    font-size:1.2rem;
+                }
+            }
+            
+            .cardContBtn{
+                width: 100%;
+                margin-bottom: auto;
+                text-align: center;
+                .btncard{
+                    margin: auto;
+                    border-radius: 5px;
+                    width: 80%;
+                    text-transform: uppercase;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    cursor: pointer;
+                    color: black;
+                    background:rgb(255, 255, 255) ;
+                    box-shadow: 1px 1px 2px rgb(165, 165, 165);
+                }
+            }
+        }
+    }
+}
+//seccion comederos
+.containercome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .card{
+        margin: 25px;
+        background: rgb(228, 223, 192);
+        border-radius: 10px;
+        box-shadow:inset 2px 1px 5px white;
+        .cardBody {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 250px;
+            height: 500px;
+            .cardImg{
+                margin: 10px auto;
+                border-radius: 10px;
+                img{
+                    width: 150px;
+                    border-radius: 5px;
+                    box-shadow: 3px 3px 5px rgb(224, 224, 224);
+                    &:hover{
+                        box-shadow: 3px 3px 8px rgb(0, 0, 0);
+                    }
+                }
+            }
+            .cardText{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                text-align: center;
+                padding-bottom: 1rem;
+                width: 100%;
+                .cardTitle{
+                    font-size: 1.5rem;
+                }
+                .cardSubT{
+                    font-size: 1rem;
+                }
+                .cardP{
+                    margin-top: 10px;
+                    font-size:1.2rem;
+                }
+            }
+            
+            .cardContBtn{
+                width: 100%;
+                margin-bottom: auto;
+                text-align: center;
+                .btncard{
+                    margin: auto;
+                    border-radius: 5px;
+                    width: 80%;
+                    text-transform: uppercase;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    cursor: pointer;
+                    color: black;
+                    background:rgb(255, 255, 255) ;
+                    box-shadow: 1px 1px 2px rgb(165, 165, 165);
+                }
+            }
+        }
+    }
+}

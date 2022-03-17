@@ -1,0 +1,50 @@
+.containertestimonios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .card{
+        margin: 25px;
+        background: rgb(89, 139, 146);
+        border-radius: 10px;
+        box-shadow:inset 2px 1px 5px white;
+        .cardBody {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 250px;
+            height: 500px;
+            padding: 10px;
+            .cardImg{
+                margin: 10px auto;
+                border-radius: 10px;
+                
+                img{
+                   
+                    border-radius: 50%;
+                    box-shadow: 3px 3px 5px rgb(224, 224, 224);
+                    &:hover{
+                        box-shadow: 3px 3px 8px rgb(0, 0, 0);
+                    }
+                }
+            }
+            .cardText{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                text-align: center;
+                padding-bottom: 1rem;
+                width: 100%;
+                .cardTitle{
+                    font-size: 1.5rem;
+                }
+                .cardSubT{
+                    font-size: 1rem;
+                }
+                .cardP{
+                    margin-top: 10px;
+                    font-size:1.2rem;
+                }
+            }
+        }
+    }
+}

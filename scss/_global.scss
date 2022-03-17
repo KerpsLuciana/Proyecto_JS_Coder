@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body*/
+body{
+    background-color: rgb(255, 250, 244);
+    /*menu hamburguesa*/
+
+    .cont-img {
+        width: 50%;
+        #icono-menu {
+            margin-left: 10px ;
+            position: relative;
+            z-index: 1;
+            vertical-align: top;
+            width: 20px;
+            cursor: pointer;
+        }
+    }
+
+    #cont-menu {
+        background-color: rgb(197, 181, 181);
+        box-shadow: 2px 0px 5px 2px rgb(233, 221, 221);
+        width: 300px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        transition: all .5s ease;
+
+        .nav__ul {
+        position: relative;
+        padding: 100px 0px 20px 0px ;
+        list-style: none;
+        .nav__a {
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+
+            .nav__li {
+                display: inline-block;
+                width: 100%;
+                padding: 10px 50px;
+                cursor: pointer;
+                &:hover {
+                    background-color: rgb(224, 213, 213);
+                    color: rgb(42, 42, 42);
+                }
+            }
+        }
+        }
+    }
+
+    /*ESTILO PARA JAVASCRIPT*/
+
+    #cont-menu.active {
+    left: 0;
+    }
+
+    /*footer*/
+
+    .footer {
+        display: grid;
+        margin-top: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        color: black;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        background: rgb(209, 202, 164);
+        box-shadow: 0px -2px 5px black;
+        .footer__hijo {
+            padding: 2rem;
+            font-size: 1rem;
+            text-align: center;
+            margin: 1rem;
+            div {
+                padding: 0.5rem;
+            }
+        }
+    }
+    
+}
+
+
+/*h*/
+
+h1{
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2{
+    margin: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alineacion{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin:auto;
+    
+    #Newsletter{
+
+        text-align: start;
+        width: 25%;
+    }
+    .cont-img{
+
+        width: 100%;
+    }
+    .h1{
+        
+        width: 60%;
+        text-align: end;
+        margin: auto;
+    }
+}

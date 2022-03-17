@@ -1,0 +1,52 @@
+
+
+/* Formularios */
+#formulario{
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+#registrarme{
+    display: none;
+}
+
+#boton1{
+    padding: 0.3rem;
+    background-color: rgb(214, 204, 190);
+}
+
+#boton2{
+    padding: 0.3rem;
+}
+
+#escape{
+    padding: 0.3rem;
+}
+
+#btnSubmit{
+    padding: 0.3rem;
+}
+
+#registrarme{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#confirmar{
+    padding: 0.3rem;
+}
+
+
+/*suscripcion*/
+
+  #Newsletter{
+      text-align: end;
+  }
+
+
+  .boton{
+      display: flex;
+      justify-content: end;
+  }
+
+  #acordeon{
+      cursor: pointer;
+  }

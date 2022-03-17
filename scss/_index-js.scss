@@ -1,0 +1,197 @@
+.index-js{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .cont-emergente{
+        display: none;
+        width: 100%;
+        position: absolute;
+        background-color: rgba(73, 73, 73, 0.911);
+        max-height: max-content;
+        .emergente{
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            background-color: rgb(218, 216, 219);
+            margin: 25%;
+            position: relative;
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px black, -2px -2px 15px black;
+            .emergente__title{
+                width: 100%;
+                color: rgb(0, 0, 0);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.5rem;
+                text-align: center;
+                padding: 1.5rem;
+                
+            }
+            #closeBtnEmer{
+                font-size: 2rem;
+                font-weight: 900;
+                margin: auto 4px;
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+    }
+    .tiendaCarrito{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: start;
+        .tiendaJS{
+            //cards para seccion alimentos más pedidos
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            #contenedor{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin: auto;
+                .card{
+                    margin: 10px;
+                    background: rgb(219, 208, 141);
+                    border-radius: 10px;
+                    box-shadow:inset 2px 1px 5px white;
+                    .cardBody {
+                    display: flex;
+                    flex-direction: column;;
+                    width: 200px;
+                    height: 350px;
+                    .cardImg{
+                        margin: 10px auto;
+                        border-radius: 10px;
+                        img{
+                            width: 150px;
+                            border-radius: 5px;
+                            box-shadow: 3px 3px 5px rgb(224, 224, 224);
+                            &:hover{
+                                box-shadow: 3px 3px 8px rgb(0, 0, 0);
+                            }
+                        }
+                    }
+                    .cardText{
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: 800;
+                        text-align: center;
+                        padding-bottom: 1rem;
+                        width: 100%;
+                        .cardTitle{
+                            font-size: 1.5rem;
+                        }
+                        .cardSubT{
+                            font-size: 1rem;
+                        }
+                        .cardP{
+                            margin-top: 10px;
+                            font-size:1.2rem;
+                        }
+                    }
+                    
+                    .cardContBtn{
+                        width: 100%;
+                        margin: auto;
+                        text-align: center;
+                            .btncard{
+                            margin: auto;
+                            border-radius: 5px;
+                            width: 80%;
+                            text-transform: uppercase;
+                            font-size: 1rem;
+                            font-weight: 400;
+                            cursor: pointer;
+                            color: black;
+                            background:rgb(255, 255, 255) ;
+                            box-shadow: 1px 1px 2px rgb(165, 165, 165);
+                            }
+                        }
+                    }
+                }
+            }
+            .contBtn{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-bottom: 10px;
+                #modalBtn{
+                    
+                    background:white;  
+                    padding: 10px 40px;
+                    border-radius: 10px;
+                    box-shadow: 2px 2px 5px black;
+                }
+            }
+        }
+
+
+        //CARRITO 
+        
+        .carritoJS{
+            
+            #modal{
+                display: none;
+                background: rgb(219, 208, 141);
+                width: 100%;
+                .modal-header{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-around;
+                    background-color:rgb(252, 252, 252);
+                    .modal-title{
+                        color: black
+                    }
+                    #closeBtn{
+                        color: rgb(90, 90, 90);
+                        font-size: 1.5rem;
+                        font-weight: 800;
+                        
+                        &:hover{
+                            color:black;
+                            
+                        }
+                    }
+                }
+                .modal-body{
+                    
+                    margin: auto;
+                    width: 80%;
+                    .modal-subtitle{
+                        color: white;
+                    }
+                    .modal-text{
+                        color: yellow;
+                    }
+                }
+                .modal-footer{
+
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 5px;
+                    
+                    #botonfinal{
+                        padding: 4px;
+                        color: black;
+                        border-radius: 10px;
+                        background: white(141, 133, 143, 0.596);
+                    }
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="veterinaria, petshop, alimento balanceado, paseadores"> <!--Palabras claves para posicionamiento web-->
+        <meta name="description" content="Tienda patitas te acompaña a lo largo de la vida de tu mascota, desde su alimentación, su limpieza y una atención personalizada con nuestros servicios de veterinaria y paseadores, animate a conocernos"> <!--Descripción de mi página-->
+        <title>tiendapatitas</title>
+        <link rel="stylesheet" href="./css/style.css"/>
+    </head>
+    <body>
+        <header class="index">
+            <!--Imagen de encabezado-->
+            <section>
+                <div class="imagen1">
+                    <img src="img/portada4.png" alt="" />
+                </div>
+                
+            </section>
+            
+            
+            <div class="alineacion">
+                
+                <h2 id="Newsletter">Suscribite a nuestro Newsletter</h2>
+                <h1 class="h1">BIENVENIDO A TIENDA PATITAS</h1>
+                <div>
+                    <div class="cont-img" >
+                        <img src="./img/hamburger (1).png" id="icono-menu" >
+                    </div>
+                    <!--Menu-->
+                    <nav id="cont-menu">
+                        <ul class="nav__ul">
+                            <a class="nav__a" href="index.html"><li class="nav__li">Inicio</li></a>
+                            <a class="nav__a" href="./Pages/alimentos.html"><li class="nav__li">Alimentos</li></a>
+                            <a class="nav__a" href="./Pages/accesorios.html"><li class="nav__li">Accesorios</li></a>
+                            <a class="nav__a" href="./Pages/serviciodepaseo.html"><li class="nav__li">Servicio de paseo</li></a>
+                            <a class="nav__a" href="./Pages/quienesomos.html"><li class="nav__li">Quienes somos</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <br>
+            <div class="boton">
+                <button id="boton1">Suscribirse</button>
+            </div>
+            <div>
+                <form id="formulario">
+                    <label> Nombre:</label>
+                    <input class="iText" type="text" name="nombre" id="iNombre" />
+                    <label>Email:</label>
+                    <input class="iText" type="email" name="email" id="iEmail" />
+                    <label>Nombre de tu mascota</label>
+                    <input class="iText" type="text" name="mascota" id="iMascota" />
+                    <input type="button" id="btnSubmit" value="Confirmar" />
+                    <button id="boton2">Registrarme</button>
+                    <button id="escape">X</button>
+                </form>
+                
+                <div id="registrarme">
+                    <form id="register">
+                        <div id="d1">
+                        <label >Nombre completo</label>
+                        <input class="Itext" type="text" name="nombre" id="Inombre"/>
+                        </div>
+                        <div id="d2">
+                        <label>Email</label>
+                        <input class="Itext" type="email" name="email" id="IEmail"/>
+                        </div>
+                        <div>
+                        <label>PassWord</label>
+                        <input class="Itext" type="password" name="IContraseña" id="IContraseña"/>
+                        </div>
+                        <button id="confirmar">Confirmar registro</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <main class="index-js">
+            <div class="cont-emergente">
+                <div class="emergente">
+                    <h3 class="emergente__title">GRACIAS POR COMPRAR EN NUESTRA TIENDA</h3>
+                    <span id="closeBtnEmer">&times;</span>
+                </div>
+            </div>
+            <h2 class="h2">NUESTROS PRODUCTOS MÁS PEDIDOS</h2>
+            <div class="tiendaCarrito">
+                <section class="tiendaJS">
+                    <div class="contBtn">
+                        <button id="modalBtn">IR A MI CARRITO</button>
+                    </div>
+                    <div id="contenedor"></div>
+                </section>
+                <section class="carritoJS">
+                    <div id="modal">
+                        <div class="modal-header">
+                            <h3 class="modal-title">TUS PRODUCTOS:</h3>
+                            <span id="closeBtn">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p class="modal-subtitle"></p>
+                            <div id="carrito"></div>
+                            <p class="modal-text"></p>
+                        </div>
+                        <div class="modal-footer">
+                            
+                            <button id="botonfinal">Finalizar Compra</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <hr>
+            <br>
+            <br>
+            <h2 class="h2" id="acordeon" >SOBRE NOSOTROS, CONOCE A QUIENES CONFIARON EN NOSOTROS</h2>
+            <br>
+            <hr>
+            <div id="resultado"></div>
+        </main>
+        <footer class="footer">
+            <div class="footer__hijo">
+                <div> 
+                <h4>Ayuda</h4>
+                </div>
+                <div>
+                <h4>Términos y condiciones</h4>
+                </div>
+                <div>
+                <h4>Faqs</h4>
+                </div>
+            </div>
+            <div class="footer__hijo">
+                <div>
+                <h4>Buscanos en nuestras redes sociales</h4>
+                </div>
+                <div>
+                <img src="./img/whatsapp (1).png" alt="WhatsApp" width="40px" height="40px">
+                <img src="./img/instagram (3).png" alt="Instagram" width="40px" height="40px">
+                <img src="./img/facebook (1).png" alt="Facebook" width="40px" height="40px">
+                </div>
+            </div>
+            <div class="footer__hijo">
+                <div>
+                <h4>Email:</h4>
+                <p>tiendapatitas@gmail.com</p>
+                </div>
+                <div>
+                <h4>Domicilio:</h4>
+                <p>Moises lebenshon 2423</p>
+                </div>
+                <div>
+                <h4>Teléfono:</h4>
+                <p>+5491154897740</p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="app.js"></script>
+        <script src="tienda.js"></script>
+    </body>
+</html>
