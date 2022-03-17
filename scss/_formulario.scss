@@ -1,10 +1,12 @@
 .formulario{
-    background-color: rgba(247, 251, 255, 0.89);
+    display: none;
+    background-color: rgba(218, 203, 153, 0.89);
     border-radius: 10px;
     padding: 1rem;
     border: 2px solid black;
     width: 30%;
     margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
     
     .contacto{
         width: 95%;
@@ -32,7 +34,7 @@
             
         }
         .input{
-            background-color: rgb(231, 225, 138);
+            background-color: white;
             border-radius: 10px;
             padding: 0.5rem;
             color: black;

@@ -100,6 +100,15 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2.5rem;
+}
+
+#openCloseForm{
+    cursor: pointer;
+}
+
 .alineacion{
     display: flex;
     flex-direction: row-reverse;
@@ -123,4 +132,18 @@ h1{
         text-align: end;
         margin: auto;
     }
+}
+
+// descrip quienes somos
+
+.descripQS{
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px auto;
+    padding: 10px;
+    box-shadow: 2px 2px 25px black, -2px -2px 25px black;
+    border-radius: 10px;
+   
 }

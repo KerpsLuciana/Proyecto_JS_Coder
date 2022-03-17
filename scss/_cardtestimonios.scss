@@ -18,9 +18,9 @@
             .cardImg{
                 margin: 10px auto;
                 border-radius: 10px;
-                
+                width: 50%;
                 img{
-                   
+                    width: 100%;
                     border-radius: 50%;
                     box-shadow: 3px 3px 5px rgb(224, 224, 224);
                     &:hover{

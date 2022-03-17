@@ -89,6 +89,15 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2.5rem;
+}
+
+#openCloseForm {
+  cursor: pointer;
+}
+
 .alineacion {
   display: flex;
   flex-direction: row-reverse;
@@ -108,6 +117,17 @@ h1 {
   width: 60%;
   text-align: end;
   margin: auto;
+}
+
+.descripQS {
+  width: 80%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px auto;
+  padding: 10px;
+  box-shadow: 2px 2px 25px black, -2px -2px 25px black;
+  border-radius: 10px;
 }
 
 /* Formularios */
@@ -258,7 +278,7 @@ h1 {
   box-shadow: 0px 2px 10px black;
 }
 .index .h1 {
-  width: 50%;
+  width: 60%;
   text-align: end;
 }
 .index .imagen1 {
@@ -350,15 +370,40 @@ h1 {
 
 .seccionQuienesSomos {
   box-shadow: 0px 2px 10px black;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  box-shadow: 0px 2px 10px black;
+}
+.seccionQuienesSomos .titleQS {
+  width: 60%;
+  text-align: end;
+  font-size: 2rem;
+}
+.seccionQuienesSomos .cont-img {
+  width: 15%;
+}
+.seccionQuienesSomos .imagen5 {
+  display: flex;
+  justify-content: end;
+  width: 30%;
+}
+.seccionQuienesSomos .imagen5 img {
+  width: 40%;
 }
 
 .formulario {
-  background-color: rgba(247, 251, 255, 0.89);
+  display: none;
+  background-color: rgba(218, 203, 153, 0.89);
   border-radius: 10px;
   padding: 1rem;
   border: 2px solid black;
   width: 30%;
   margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .formulario .contacto {
   width: 95%;
@@ -383,7 +428,7 @@ h1 {
   font-size: 1.2rem;
 }
 .formulario .contacto .input {
-  background-color: #e7e18a;
+  background-color: white;
   border-radius: 10px;
   padding: 0.5rem;
   color: black;
@@ -407,6 +452,7 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .containerfe .card {
   margin: 25px;
@@ -472,6 +518,7 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .containerpe .card {
   margin: 25px;
@@ -537,6 +584,7 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .containerot .card {
   margin: 25px;
@@ -602,6 +650,7 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .containercome .card {
   margin: 25px;
@@ -686,8 +735,10 @@ h1 {
 .containertestimonios .card .cardBody .cardImg {
   margin: 10px auto;
   border-radius: 10px;
+  width: 50%;
 }
 .containertestimonios .card .cardBody .cardImg img {
+  width: 100%;
   border-radius: 50%;
   box-shadow: 3px 3px 5px #e0e0e0;
 }
@@ -930,6 +981,21 @@ h1 {
   padding: 0.2rem;
   border-radius: 5px;
   background: white(243, 243, 159, 0.829);
+}
+
+.ubicacion {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.ubicacion ul li {
+  margin: 10px;
+}
+.ubicacion img {
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

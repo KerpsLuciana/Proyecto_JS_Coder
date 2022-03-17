@@ -1,0 +1,16 @@
+.ubicacion{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    ul{
+        li{
+            margin: 10px;
+        }  
+    }
+    img{
+        width: 50%;
+    }
+}

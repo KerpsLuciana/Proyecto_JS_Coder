@@ -75,4 +75,7 @@ $("#botonfinal").click(function(e){
         })
 })
 
-    
+$("#openCloseForm").click(function(e){
+    e.preventDefault()
+    $("#formQS").slideToggle(2000);
+})   
