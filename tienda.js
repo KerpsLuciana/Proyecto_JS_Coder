@@ -29,14 +29,14 @@ const alimentos = [
     marca: "CAT CHOW",
     descripcion: "Alimento sabor carne",
     precio: 180,
-    img: "../img/catchowcarne.jpg",
+    img: "./img/catchowcarne.jpg"
     },
     {
     id: 1,
     marca: "PEDIGREE",
     descripcion: "Alimento nutrición completa para adultos",
     precio: 220,
-    img: "../img/pedigreecompleta.jpg",
+    img: "./img/pedigreecompleta.jpg"
     },
 
     {
@@ -44,28 +44,28 @@ const alimentos = [
     marca: "RAZA",
     descripcion: "Alimento sabor carne adultos",
     precio: 155,
-    img: "../Img/razacarne.jpg",
+    img: "./Img/razacarne.jpg"
     },
     {
     id: 3,
     marca: "GATI",
     descripcion: "Alimento sabor pollo con vegetales",
     precio: 160,
-    img: "../Img/gatipollo.jpg",
+    img: "./Img/gatipollo.jpg"
     },
     {
     id: 4,
     marca: "CAT CHOW",
     descripcion: "Alimento sabor pescado cachorros",
     precio: 190,
-    img: "../Img/catchowpescado.jpg",
+    img: "./Img/catchowpescado.jpg"
     },
     {
     id: 5,
     marca: "PEDIGREE",
     descripcion: "Alimento completo para cachorros",
     precio: 250,
-    img: "../Img/pedigreecachorros.png",
+    img: "./Img/pedigreecachorros.png"
     },
 ];
 
