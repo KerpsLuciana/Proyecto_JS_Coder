@@ -44,28 +44,28 @@ const alimentos = [
     marca: "RAZA",
     descripcion: "Alimento sabor carne adultos",
     precio: 155,
-    img: "./Img/razacarne.jpg"
+    img: "./img/razacarne.jpg"
     },
     {
     id: 3,
     marca: "GATI",
     descripcion: "Alimento sabor pollo con vegetales",
     precio: 160,
-    img: "./Img/gatipollo.jpg"
+    img: "./img/gatipollo.jpg"
     },
     {
     id: 4,
     marca: "CAT CHOW",
     descripcion: "Alimento sabor pescado cachorros",
     precio: 190,
-    img: "./Img/catchowpescado.jpg"
+    img: "./img/catchowpescado.jpg"
     },
     {
     id: 5,
     marca: "PEDIGREE",
     descripcion: "Alimento completo para cachorros",
     precio: 250,
-    img: "./Img/pedigreecachorros.png"
+    img: "./img/pedigreecachorros.png"
     },
 ];
 
